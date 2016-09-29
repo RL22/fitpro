@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>fitness and gym landing page</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="favicon.ico" />
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body class="home">
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<div class="widget header_widget_search">
+			<form method="get" class="searchform form-inline" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="search_theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- Header -->
+			<header class="page_header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="block-header1 text-left">
+								<div class="header-search">
+									<a href="#" class="search_modal_button sh-button">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="social-list">
+									<span class="social-list__text">Follow with us:</span>
+									<a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+									<a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+									<a href="#" class="fa fa-youtube-play" aria-hidden="true"></a>
+									<a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
+									<a href="#" class="fa fa-vimeo" aria-hidden="true"></a>
+								</div>
+							</div>
+							<div class="block-header2 text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="index.html">Home</a>
+										</li>
+										<li>
+											<a href="#">About</a>
+										</li>
+										<li>
+											<a href="#">Schedule</a>
+										</li>
+										<li>
+											<a href="#">Blog</a>
+										</li>
+										<li>
+											<a href="#">Shop</a>
+										</li>
+										<li>
+											<a href="#">Contact</a>
+										</li>
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+							<div class="block-header3 text-right">
+								<ul class="header-list-1">
+									<li>
+										<div class="dropdown login-dropdown">
+											<a class="header-button" id="login" data-target="#" href="/" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+												<span class="account-text">My account</span>
+											</a>
+											<div class="dropdown-menu login-content" aria-labelledby="login">
+												<p>
+													<strong class="grey">If you have an account, please log in:</strong>
+												</p>
+												<form class="login-form" action="/">
+													<div class="form-group">
+														<label for="login_email">Email address</label>
+														<input type="email" class="form-control" id="login_email">
+													</div>
+													<div class="form-group">
+														<label for="login_password">Password</label>
+														<input type="password" class="form-control" id="login_password">
+													</div>
+													<button type="button" class="theme_button color1">
+														Log in
+													</button>
+													<a href="register.html" class="theme_button color2">Register</a>
+												</form>
+												<div class="greylinks topmargin_20">
+													<a href="register.html">Forgot Your Password?</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="cart-dropdown">
+											<p class="cart-t-price">$1975.00</p>
+											<a class="c-button" id="cart" data-target="#" href="/" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+												<i class="rt-icon2-basket"></i>
+											</a>
+											<div class="dropdown-menu cart-content" aria-labelledby="cart">
+												<span class="cart-content__text">Recently added item(s)</span>
+												<div class="widget widget_shopping_cart">
+
+													<div class="widget_shopping_cart_content">
+														<ul class="cart_list product_list_widget media-list darklinks">
+															<li class="media">
+																<div class="cart_list__img">
+																	<a href="product-right.html">
+																		<img src="images/shop/img_shop-01.jpg" alt="">
+																	</a>
+																</div>
+																<div class="media-body media-middle">
+																	<h4 class="cart_list__title">
+																		<a href="product-right.html">Stet clitad gubergren</a>
+																	</h4>
+																	<span class="quantity">1 ×
+																		<span class="amount">$90</span>
+																	</span>
+																</div>
+																<div class="media-body media-middle text-center">
+																	<a href="#" class="remove" title="Remove this item">
+																		<i class="rt-icon2-trash highlight"></i>
+																	</a>
+																</div>
+															</li>
+															<li class="media">
+																<div class="cart_list__img">
+																	<a href="product-right.html">
+																		<img src="images/shop/img_shop-02.jpg" alt="">
+																	</a>
+																</div>
+																<div class="media-body media-middle">
+																	<h4 class="cart_list__title">
+																		<a href="product-right.html">Takimata san bctus</a>
+																	</h4>
+																	<span class="quantity">1 ×
+																		<span class="amount">$90</span>
+																	</span>
+																</div>
+																<div class="media-body media-middle text-center">
+																	<a href="#" class="remove" title="Remove this item">
+																		<i class="rt-icon2-trash highlight"></i>
+																	</a>
+																</div>
+															</li>
+														</ul>
+														<!-- end product list -->
+														<p class="total">
+															<span class="grey">Cart Subtotal:
+																<span class="amount">$180</span>
+															</span>
+														</p>
+														<p class="buttons">
+															<a href="cart-right.html" class="widget_shopping_button color1">View All</a>
+															<a href="checkout-right.html" class="widget_shopping_button">Checkout</a>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="page_toplogo text-center section_padding_top_20">
+				<div class="container">
+					<div class="row bottommargin_15">
+						<div class="col-lg-12">
+							<a href="./" class="logo logo_image">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<h1 class="logo_text">cf
+							<span>power</span>
+						</h1>
+						<p class="text-description">fitness and gym landing page</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Static -->
+			<div class="intro_section page_mainslider ds">
+				<img src="images/slider/img_slider-01.jpg" alt="">
+				<div class="flexslider__content table_section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-left text-xs-center">
+								<div class="content-table__wrapp">
+									<a href="#" class="flexslider__meta-tag">facilities & plans</a>
+									<h3 class="flexslider__title">get access to all
+										<span> premium facilities</span>
+									</h3>
+									<p class="flexslider__text">Etiam sed sem finibus, porta nisl non, ullamcorper ex. Vestibulum sed massa lectus. Nulla quis diam nibh.</p>
+									<div class="flexslider__button-wrap">
+										<a href="#" class="flexslider__button">view details</a>
+										<a href="#" class="watch-review">Watch review</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ls ms section_padding_top_80 section_padding_bottom_80">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="pricing">
+								<h4 class="pricing__title">One Day
+									<span>Training</span>
+								</h4>
+								<div class="pricing__content">
+									<p class="pricing__price">5,
+										<span class="pricing__price-it">00
+											<span class="pricing__price-day">day</span>
+										</span>
+									</p>
+									<ul class="pricing__list">
+										<li>Onetime access to all clubs</li>
+										<li>Group trainer</li>
+										<li>Cardio</li>
+										<li>Fitness orientation</li>
+									</ul>
+									<a href="#" class="pricing__button">get started</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="pricing">
+								<h4 class="pricing__title">Standart
+									<span>Training</span>
+								</h4>
+								<div class="pricing__content">
+									<p class="pricing__price">50,
+										<span class="pricing__price-it">00
+											<span class="pricing__price-day">month</span>
+										</span>
+									</p>
+									<ul class="pricing__list">
+										<li>Onetime access to all clubs</li>
+										<li>Group trainer</li>
+										<li>Cardio</li>
+										<li>Fitness orientation</li>
+									</ul>
+									<a href="#" class="pricing__button">get started</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="pricing">
+								<h4 class="pricing__title">Total access
+									<span>Training</span>
+								</h4>
+								<div class="pricing__content">
+									<p class="pricing__price">100,
+										<span class="pricing__price-it">00
+											<span class="pricing__price-day">month</span>
+										</span>
+									</p>
+									<ul class="pricing__list">
+										<li>Onetime access to all clubs</li>
+										<li>Group trainer</li>
+										<li>Cardio</li>
+										<li>Fitness orientation</li>
+									</ul>
+									<a href="#" class="pricing__button">get started</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ls ms section_padding_bottom_55">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="flexslider slider-type-2">
+								<ul class="slides">
+									<li>
+										<div class="row">
+											<div class="col-md-4 col-lg-4">
+												<p class="slider-type-2__subtitle">team you can trust</p>
+												<h3 class="slider-type-2__title">high experienced
+													<span>Team Members</span>
+												</h3>
+												<p class="slider-type-2__text">Etiam sed sem finibus, porta nisl non, ullamcorper ex. Vestibulum sed massa lectus. Nulla quis diam nibh. Phasellus lacus eros, tincidunt id iaculis non, fringilla ut est. Aliquam pulvinar imperdiet tincidunt.</p>
+												<a class="slider-type-2__button" href="#">view the team</a>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-01.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Lorraine Fields</a>
+														</li>
+														<li>Personal Trainer</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-02.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Sheldon Moreno</a>
+														</li>
+														<li>Group instructor</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="row">
+											<div class="col-md-4 col-lg-4">
+												<p class="slider-type-2__subtitle">Lorem ipsum dolor sit</p>
+												<h3 class="slider-type-2__title">Lorem ipsum
+													<span> dolor sit</span>
+												</h3>
+												<p class="slider-type-2__text">Etiam sed sem finibus, porta nisl non, ullamcorper ex. Vestibulum sed massa lectus. Nulla quis diam nibh. Phasellus lacus eros, tincidunt id iaculis non, fringilla ut est. Aliquam pulvinar imperdiet tincidunt.</p>
+												<a class="slider-type-2__button" href="#">view the team</a>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-03.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Veranika Walton</a>
+														</li>
+														<li>Personal trainer</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-04.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Altana Wolfel</a>
+														</li>
+														<li>Personal trainer</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="row">
+											<div class="col-md-4 col-lg-4">
+												<p class="slider-type-2__subtitle">Consectetur adipisicing elit</p>
+												<h3 class="slider-type-2__title">Adipisicing elit
+													<span>quod excepturi</span>
+												</h3>
+												<p class="slider-type-2__text">Etiam sed sem finibus, porta nisl non, ullamcorper ex. Vestibulum sed massa lectus. Nulla quis diam nibh. Phasellus lacus eros, tincidunt id iaculis non, fringilla ut est. Aliquam pulvinar imperdiet tincidunt.</p>
+												<a class="slider-type-2__button" href="#">view the team</a>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-05.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Ernest Hunteret</a>
+														</li>
+														<li>Personal trainer</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-md-4 col-lg-4">
+												<div class="team-item">
+													<figure class="team-item__img">
+														<a href="#">
+															<img src="images/team/img_team-06.jpg" alt="">
+														</a>
+													</figure>
+													<ul class="team-item__img-desc">
+														<li>
+															<a href="#">Loretta Franklin</a>
+														</li>
+														<li>Group instructor</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ls ms section_padding_bottom_75">
+				<div class="container">
+					<div class="row ">
+						<div class="col-lg-12">
+							<div class="parallax parallax-type-1">
+								<div class="parallax-type-1__block">
+									<figure class="parallax-type-1__img">
+										<img src="images/icons/img_parallax-01.png" alt="">
+									</figure>
+									<h3 class="parallax-type-1__title">Personal
+										<span>Training</span>
+									</h3>
+									<p class="parallax-type-1__text">Nulla lorem urna, dignissim sed porta eu, aliquet at libero. Nullam aliquam quam quis odio aliquam consectetur. </p>
+									<a href="#" class="parallax-type-1__btn">meet our trainers</a>
+								</div>
+								<div class="parallax-type-1__block">
+									<figure class="parallax-type-1__img">
+										<img src="images/icons/img_parallax-02.png" alt="">
+									</figure>
+									<h3 class="parallax-type-1__title">Specific
+										<span>Programs</span>
+									</h3>
+									<p class="parallax-type-1__text">Nulla lorem urna, dignissim sed porta eu, aliquet at libero. Nullam aliquam quam quis odio aliquam consectetur.</p>
+									<a href="#" class="parallax-type-1__btn">meet our trainers</a>
+								</div>
+								<div class="parallax-type-1__block">
+									<figure class="parallax-type-1__img">
+										<img src="images/icons/img_parallax-03.png" alt="">
+									</figure>
+									<h3 class="parallax-type-1__title">Special
+										<span>Classes</span>
+									</h3>
+									<p class="parallax-type-1__text">Nulla lorem urna, dignissim sed porta eu, aliquet at libero. Nullam aliquam quam quis odio aliquam consectetur.</p>
+									<a href="#" class="parallax-type-1__btn">meet our trainers</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ls ms">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-lg-8">
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-01.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">Crossfit & workout</a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nulla lorem urna, dignissim sed porta eu, aliquet at libero. Nullam aliquam quam quis odio aliquam consectetur.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-02.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">gym & fitness</a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nullam non fringilla ligula. Nullam tristique ut diam non dictum. Morbi sed tempus massa. Proin aliquam pharetra tempus. Nunc faucibus semper bibendum.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-03.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">trainers & equipment </a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nullam non fringilla ligula. Nullam tristique ut diam non dictum. Morbi sed tempus massa. Proin aliquam pharetra tempus. Nunc faucibus semper bibendum.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-04.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">yoga & pilates</a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nullam non fringilla ligula. Nullam tristique ut diam non dictum. Morbi sed tempus massa. Proin aliquam pharetra tempus. Nunc faucibus semper bibendum.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-05.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">boxing</a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nullam non fringilla ligula. Nullam tristique ut diam non dictum. Morbi sed tempus massa. Proin aliquam pharetra tempus. Nunc faucibus semper bibendum.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="post-type-3">
+								<figure class="post-type-3__img">
+									<a href="#">
+										<img src="images/blog/img_blog-06.jpg" alt="">
+									</a>
+								</figure>
+								<article class="post-type-3__content">
+									<a href="#" class="meta-category">trainers & equipment </a>
+									<h4 class="post-type-3__title">
+										<a href="#">Ther hand, we denounce with righteus indignation and dislike.</a>
+									</h4>
+									<p>Nullam non fringilla ligula. Nullam tristique ut diam non dictum. Morbi sed tempus massa. Proin aliquam pharetra tempus. Nunc faucibus semper bibendum.</p>
+									<ul class="meta-post-list">
+										<li>
+											<a href="#" class="meta-post-likes">275</a>
+										</li>
+										<li>
+											<a href="#" class="meta-post-comment">52</a>
+										</li>
+										<li>
+											<span class="meta-post-views">32 575</span>
+										</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+						<aside class="col-md-4 col-lg-4">
+							<div class="widget widget_search">
+								<div class="with_padding">
+									<h3 class="widget-title">Search on
+										<span>website</span>
+									</h3>
+									<form method="get" class="searchform form-inline" action="/">
+										<label class="widget-search__info" for="widget-search">Find more exciting news & special offers</label>
+										<div class="form-group">
+											<input id="widget-search" type="text" value="" name="search" class="form-control" placeholder="Enter your search keyword">
+											<button type="submit" class="widget-search__button">Search</button>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="widget widget_mass-index">
+								<div class="with_padding">
+									<h3 class="widget-title">Calculate your body mass
+										<span>index</span>
+									</h3>
+									<form action="/" class="form-mass-index">
+										<div class="form-group form-wrapp">
+											<label class="weight-label" for="weight-info">Weight</label>
+											<input type="text" name="name01" id="weight-info" placeholder="Kg">
+										</div>
+										<div class="form-group form-wrapp">
+											<label class="height-label" for="height-info">Height</label>
+											<input type="text" name="name01" id="height-info" placeholder="Cm">
+										</div>
+										<div class="form-group form-wrapp">
+											<label class="age-label" for="age-info">Your age</label>
+											<input type="text" name="name01" id="age-info" placeholder="Age">
+										</div>
+										<label class="gender-label">Gender</label>
+										<div class="form-group radio-wrapper">
+											<label class="label-radio-1">
+												<input type="radio" name="gender-name" id="gender-info1" checked> Male
+											</label>
+											<label>
+												<input type="radio" name="gender-name" id="gender-info2"> Female
+											</label>
+										</div>
+										<div class="form-group results-wrapper">
+											<input class="form-mass__button" type="submit" value="Calculate">
+											<input class="form-mass__text" type="text" name="name03" id="im-01" value="17,5">
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="widget widget_tag_cloud">
+								<div class="with_padding">
+									<h3 class="widget-title">Featured
+										<span>tags</span>
+									</h3>
+									<div class="tagcloud">
+										<a href="#" title="">Fitness</a>
+										<a href="#" title="">Workout</a>
+										<a href="#" title="">Facilities</a>
+										<a href="#" title="">Accessories</a>
+										<a href="#" title="">Pilates</a>
+										<a href="#" title="">Plans</a>
+										<a href="#" title="">Shedule</a>
+										<a href="#" title="">Services</a>
+										<a href="#" title="">Crossfit</a>
+										<a href="#" title="">Equipment</a>
+										<a href="#" title="">Clothes</a>
+										<a href="#" title="">Boxing</a>
+										<a href="#" title="">Trainers</a>
+										<a href="#" title="">Nutrition</a>
+										<a href="#" title="">Offers</a>
+										<a href="#" title="">Products</a>
+										<a href="#" title="">Yoga</a>
+										<a href="#" title="">Gym</a>
+									</div>
+								</div>
+							</div>
+							<div class="widget widget_featured_products">
+								<div class="with_padding">
+									<h3 class="widget-title">featured
+										<span>products</span>
+									</h3>
+									<ul class="widget_featured_products__list">
+										<li>
+											<figure class="widget_featured_products__img">
+												<a href="#">
+													<img src="images/shop/img_shop-01.jpg" alt="">
+												</a>
+											</figure>
+											<h5 class="widget_featured_products__title">
+												<a href="#">Cellucor C4, 30 Servings</a>
+											</h5>
+											<p class="widget_featured_products__text">Advanced Pre-Workout for Increased Energy and Focus</p>
+											<div class="widget_featured_products__meta">
+												<p class="widget_featured_products__price">$74.99</p>
+												<a href="#" class="widget_featured_products__refresh">Refresh</a>
+												<a href="#" class="widget_featured_products__button">Add</a>
+											</div>
+										</li>
+										<li>
+											<figure class="widget_featured_products__img">
+												<a href="#">
+													<img src="images/shop/img_shop-02.jpg" alt="">
+												</a>
+											</figure>
+											<h5 class="widget_featured_products__title">
+												<a href="#">BPI Sports Best BCAA, 600 Grams</a>
+											</h5>
+											<p class="widget_featured_products__text">Advanced Pre-Workout for Increased Energy and Focus</p>
+											<div class="widget_featured_products__meta">
+												<p class="widget_featured_products__price">$74.99</p>
+												<a href="#" class="widget_featured_products__refresh">Refresh</a>
+												<a href="#" class="widget_featured_products__button">Add</a>
+											</div>
+										</li>
+										<li>
+											<figure class="widget_featured_products__img">
+												<a href="#">
+													<img src="images/shop/img_shop-03.jpg" alt="">
+												</a>
+											</figure>
+											<h5 class="widget_featured_products__title">
+												<a href="#">Mutant Muscle Mass Gainer 15 lbs</a>
+											</h5>
+											<p class="widget_featured_products__text">Advanced Pre-Workout for Increased Energy and Focus</p>
+											<div class="widget_featured_products__meta">
+												<p class="widget_featured_products__price">$74.99</p>
+												<a href="#" class="widget_featured_products__refresh">Refresh</a>
+												<a href="#" class="widget_featured_products__button">Add</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+			<div class="ls ms gallery-01 columns_padding_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-01.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">boxing</a>
+											<h4 class="gallery-01__title">signup for
+												<br> boxing club</h4>
+											<p class="gallery-01__subtitle">get 50% off</p>
+										</div>
+										<a href="#" class="gallery-01__btn-01">More</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12 gallery-01--bg">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-02.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">services & offers</a>
+											<h4 class="gallery-01__title">What's next on
+												<span>schedule</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-02">our calendar</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute isotope-position col-lg-4 col-md-8 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-03.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">trainers & equipment </a>
+											<h4 class="gallery-01__title">our gym offer first class
+												<span>Trainer and equipment</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-03">get ready</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-04.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">yoga & pilates</a>
+											<h4 class="gallery-01__title">How yoga can
+												<span>change your life</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-03">practice today</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-05.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">products & nutrition</a>
+											<h4 class="gallery-01__title gallery-01__title--color">our top selling
+												<span>products</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-04">shop now</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-06.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">CLOTHES & accessories</a>
+											<h4 class="gallery-01__title gallery-01__title--color">Top brands for
+												<span>best prices</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-04">shop deals</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-07.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">Crossfit & workout</a>
+											<h4 class="gallery-01__title">Start your
+												<span>Training today</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-03">subscribe</a>
+									</div>
+								</div>
+								<div class="isotope-item isotope-position content-absolute col-lg-4 col-md-8 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-08.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">facilities & plans</a>
+											<h4 class="gallery-01__title">get access to all
+												<span>premium facilities</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-03">view details</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12 gallery-01--bg">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-09.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">services & offers</a>
+											<h4 class="gallery-01__title">Calculate Your
+												<span>Body Mass Index</span>
+											</h4>
+										</div>
+										<a href="#" class="gallery-01__btn-02">calculate bmi</a>
+									</div>
+								</div>
+								<div class="isotope-item content-absolute col-lg-2 col-md-4 col-sm-6 col-xs-12">
+									<div class="vertical-item gallery-item">
+										<div class="item-media">
+											<img src="images/gallery/home/img_home-isotope-10.jpg" alt="">
+										</div>
+										<div class="item-content">
+											<a href="#" class="gallery-01__category">gym & fitness</a>
+											<h4 class="gallery-01__title">signup for
+												<span>6 month</span>
+											</h4>
+											<p class="gallery-01__subtitle">get 30% off</p>
+										</div>
+										<a href="#" class="gallery-01__btn-01">More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ls ms text-center section_padding_top_35 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-01"></a>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-02"></a>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-03"></a>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-04"></a>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-05"></a>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<a href="#" class="img_logo-06"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer class="page_footer ds ms section_padding_top_60">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="widget social-news-wrapp">
+								<h3 class="widget-title">Social
+									<span>News</span>
+								</h3>
+								<p class="social-news-text">The latest news delivered across social networks!</p>
+								<ul class="social-news">
+									<li>
+										<a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-youtube-play" aria-hidden="true"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-vimeo" aria-hidden="true"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4 text-center footer-logo__wrapp">
+							<a href="./" class="logo logo_image footer_logo_image">
+								<img src="images/logo_bottom.png" alt="">
+							</a>
+							<p class="logo_text footer_text-logo">cf
+								<span>power</span>
+							</p>
+							<p class="text-description">fitness and gym landing page</p>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="widget widget_mailchimp">
+								<h3 class="widget-title">Subscribe
+									<span>Newsletter</span>
+								</h3>
+								<p class="mailchimp-text">Subscribe to our latest news to be updated</p>
+								<form class="signup form-inline" action="/" method="get">
+									<div class="form-group">
+										<input name="email" type="email" class="mailchimp_email form-control" placeholder="Enter your valid email here">
+									</div>
+									<button type="submit" class="mailchimp_button">Send</button>
+									<div class="response"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div class="footer-contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<h6 class="footer-contact__title">Our Location:</h6>
+							<p class="footer-contact__text"> Livingstone, Season St.
+								<span>45/2</span>
+							</p>
+							<p class="footer-contact__text-2">Los angeles,
+								<span>Inc - 4502</span>
+							</p>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<h6 class="footer-contact__title">Openinig Hours:</h6>
+							<p class="footer-contact__text"> Tuesday - Sunday
+								<span>09:00 - 17:00</span>
+							</p>
+							<p class="footer-contact__text-2">Saturday & Monday
+								<span>Closed</span>
+							</p>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<h6 class="footer-contact__title">Phone and Email address:</h6>
+							<p class="footer-contact__text">8 (800) 695 4215</p>
+							<a class="footer-contact__text--email" href="mailto:crosspower@gmail.com">cfpower@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Copyright -->
+			<div class="page_copyright ls section_padding_20">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6 text-left">
+							<p class="copyright-info">
+								<a href="#">CFPower</a> - fitness and gym landing page © 2016</p>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 text-right">
+							<p class="copyright-info">Created with
+								<i class="fa fa-heart" aria-hidden="true"></i> by
+								<a href="http://rl22.github.io">Rodney L. Lewis</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
